@@ -21,7 +21,7 @@ Options:
 
         if len(args) > 0:
             for a in args:
-                if os.path.splitext(a)[1] == "vtu":
+                if os.path.splitext(a)[1] == ".vtu":
                     self.input_files.append(a)
                 else:
                     self.arg_opts.append(a)
